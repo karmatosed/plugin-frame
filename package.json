@@ -1,0 +1,21 @@
+{
+  "name": "pluginframe",
+  "version": "1.0.0",
+  "description": "Adding things to editor",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build build-scss",
+    "build-sassy": "node-sass src -o build",
+    "sassy": "node-sass --watch src -o build"
+  },
+  "author": "karmatosed",
+  "license": "GPL-2.0-only",
+  "devDependencies": {
+    "@wordpress/scripts": "16.1.4"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
